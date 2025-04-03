@@ -4,4 +4,4 @@ heartpy>=1.2.7
 numpy>=1.21.0
 scipy>=1.7.0
 matplotlib>=3.4.0 
-web: gunicorn app:app
+gunicorn==20.1.0
