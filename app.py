@@ -74,7 +74,6 @@ def analyze_heart_rate():
                 processed_signal, 
                 sample_rate,
                 high_precision=True,
-                high_frequency_filter=True,
                 filtertype='butter',
                 windowsize=0.75,
                 report_time=False,
