@@ -142,11 +142,11 @@ def analyze_heart_rate():
             
             # Apply a sliding scale correction factor
             if raw_bpm > 100:
-                corrected_bpm = raw_bpm * 0.85  # 15% reduction for high rates
+                corrected_bpm = raw_bpm * 0.80  # 20% reduction for high rates
             elif raw_bpm > 70:
-                corrected_bpm = raw_bpm * 0.75  # 25% reduction for medium rates
+                corrected_bpm = raw_bpm * 0.70  # 30% reduction for medium rates
             else:
-                corrected_bpm = raw_bpm * 0.7   # 30% reduction for lower rates
+                corrected_bpm = raw_bpm * 0.65   # 35% reduction for lower rates             
             
             # Extract available metrics (with safe fallbacks if not present)
             response = {
