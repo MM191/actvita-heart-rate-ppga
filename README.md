@@ -5,6 +5,7 @@
 ![Deployment](https://img.shields.io/badge/deployment-Render-5364e9.svg)
 
 ## Overview
+**This Repository was published once the Heart Rate Feature was developed and was ready to be implemented on Render.com via GitHub.**
 
 This microservice powers ActVita's heart rate monitoring capabilities through advanced photoplethysmogram (PPG) signal processing. It converts raw camera sensor data into accurate heart rate measurements, enabling users to track their cardiovascular health directly from their mobile devices.
 
